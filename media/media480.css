@@ -1,0 +1,191 @@
+@media screen and (max-width: 480px) {
+	.container {
+		width: 100%;
+	}
+
+	.header {
+		height: 550px;
+	}
+
+	.logo {
+		display: flex;
+		justify-content: center;
+	}
+
+	.block-one {
+		height: 200px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.menu-header ul li a:first-child::hover {
+		border-bottom: none;
+	}
+
+	.menu-header {
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}
+
+	.menu-header ul {
+		width: 244px;
+		height: 32px;
+		border-radius: 10px;
+		border: 1px solid transparent;
+		opacity: 0.9;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 25px;
+		overflow-y: hidden;
+	}
+
+	.menu-header ul:hover {
+		width: 244px;
+		height: 257px;
+		background-color: #36293e;
+		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+		border: 1px solid #051116;
+		overflow-y: auto;
+		transition: 0.5s linear;
+		overflow-y: hidden;
+	}
+
+	.menu-header ul li {
+		line-height: 42px;
+	}
+
+	.menu-header ul li a {
+		margin: 0 auto;
+	}
+
+	.background-one {
+		height: 246px;
+	}
+
+	.container-two {
+		height: 246px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-right: 0;
+	}
+
+	.container-two .text {
+		width: 60%;
+		padding-bottom: 5px;
+	}
+
+	.text__lorem {
+		font-size: 36px;
+		margin-bottom: -5px;
+	}
+
+	.text__sublorem {
+		font-size: 18px;
+	}
+
+
+	.text__paragraph__hidden-480px {
+		display: none;
+	}
+
+	.iphone-big {
+		display: none;
+	}
+
+	.iphon4_480px {
+		margin-top: 45px;
+	}
+
+	.iphon4_480px,
+	.bottom-article__hidden-text {
+		display: block;
+	}
+
+	.violet-block {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.violet-block p .text-hidden-320px,
+	.violet-block p .text-hidden-320px + span {
+		display: inline;
+	}
+	
+
+	.background-two {
+		min-height: 620px;
+	}
+
+	.violet-content {
+		min-height: 620px;
+	}
+
+	.under-violetBlock {
+		min-height: 786px;
+		display: flex;
+
+	}
+
+	.article {
+		width: 90%;
+	}
+
+	.under-violetBlock__first-article {
+		margin-left: 7%;
+	}
+
+	.under-violetBlock__first-article_hidden-text,
+	.under-violetBlock__first-article h3 > span {
+		display: inline;
+	}
+
+	.under-violetBlock__second-article {
+		margin: 0 0 50px 50px;
+	}
+
+	.article_last {
+		margin-right: 15%;
+	}
+
+	.six__logo {
+		display: none;
+	}
+
+	.logos480 {
+		min-height: 232px;
+		background-image: url(../images/logos_480.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.bottom-articles {
+		min-height: 670px;
+	}
+
+	.bottom-article {
+		width: 100%;
+	}
+
+	.bottom-articles__One-secondP span {
+		display: inline;
+		text-shadow: 1px 1px 0 #ffffff;
+		color: #787878;
+	}
+
+	.footer-contents {
+		min-height: 240px;
+	}
+	.footer-contents {
+		display: flex;
+		justify-content: center;
+		padding-top: 45px;
+	}
+
+	.menu-footer ul li a {
+		font-size: 18px;
+		margin-right: 20px;
+	}

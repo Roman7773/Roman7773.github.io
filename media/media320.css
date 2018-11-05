@@ -1,0 +1,82 @@
+@media screen and (max-width: 320px) {
+	.container {
+		width: 320px;
+	}
+	
+	body {
+		overflow-x: hidden;
+	}
+	.header {
+		height: 515px;
+	}
+	.iphon4_480px {
+		display: none;
+	}
+
+	.background-one {
+		background: none;
+	}
+
+	.container-two {
+		width: 320px;
+		height: 280px;
+		margin: 0 auto;
+	}
+
+	.container-two div.text {
+		max-width: 320px;
+		width: 100%;
+		margin-left: 14%;
+	}
+
+
+	.violet-block p .text-hidden-320px,
+	.violet-block p .text-hidden-320px + span {
+		display: none;
+	}
+
+	.violet-block {
+		margin-left: 12%;
+	}
+
+	.under-violetBlock__first-article {
+		margin-left: 9%;
+	}
+
+	.under-violetBlock__first-article h3 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.article .under-violetBlock__second-article-hidden-text,
+	.under-violetBlock__first-article_hidden-text,
+	.article .number-hidden,
+	.bottom-articles {
+		display: none;
+	}
+
+	.under-violetBlock__second-article {
+		margin-left: 8%;
+	}
+
+	.logos480 {
+		display: none;
+	}
+
+	.background-four {
+		min-height: 425px;
+		background: url(../images/logos320px.png) no-repeat center;
+	}
+
+	.footer {
+		min-height: 215px;
+	}
+
+	.menu-footer ul {
+		display: none;
+	}
+  
+	.footer-rightSide {
+		padding-bottom: 60px;
+	} 
+}
